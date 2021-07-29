@@ -1,17 +1,18 @@
-// Scrolling Banner:
-document.addEventListener("DOMContentLoaded", function(){
-    window.addEventListener('scroll', function() {
-        if (window.scrollY > 50) {
-            document.getElementById('navbar_top').classList.add('fixed-top');
-            // add padding top to show content behind navbar
-            navbar_height = document.querySelector('.navbar').offsetHeight;
-            document.body.style.paddingTop = navbar_height + 'px';
-        } 
-        else {
-            document.getElementById('navbar_top').classList.remove('fixed-top');
-            // remove padding top from body
-            document.body.style.paddingTop = '0';
-        } 
+
+// Side Bar:
+
+$(document).ready(function () {
+    $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
     });
-}); 
-// DOMContentLoaded  end
+    
+    $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+
+        $(this).toggleClass('active');
+    });
+});
+// end sidebar
+
