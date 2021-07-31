@@ -1,13 +1,15 @@
-<!DOCTYPE html lang="en">
+<!DOCTYPE html>
 
 <!-- Reference: Sidebar used from https://bootstrapious.com/p/bootstrap-sidebar -->
 
+<html lang="en">
 
-<html>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>KnowUON</title>
         
         <!-- Bootstrap CSS CDN -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -17,8 +19,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
         <link rel="stylesheet" href="../CSS/Style.css">
-        <title>KnowUON</title>
-
     </head>
 
     <body>
@@ -37,111 +37,107 @@
         <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
         <script src="../JavaScript/JavaScript.js"></script>
 
-        <header>
 
-<div class="wrapper">
-    <!-- Sidebar  -->
-    <nav id="sidebar">
-        <div class="sidebar-header box">
+        <div class="wrapper">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+                <div class="sidebar-header box">
 
-            <img src="../Images/uon_horse.png" alt="University Logo" class="ULogo">
+                    <img src="../Images/uon_horse.png" alt="University Logo" class="ULogo">
 
-            <h3 style="padding-left: 10px;">KnowUoN</h3>
-        </div>
+                    <h3 style="padding-left: 10px;">KnowUoN</h3>
+                </div>
 
-        <ul class="list-unstyled components">
-            <li class="active">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-            </li>
-            <li>
-                <a href="#">What to Know</a>
-            </li>
-            
-            <li>
-                <a href="#">Directory</a>
-            </li>
-            <li>
-                <a href="#">Services</a>
-            </li>            
-            <li>
-                <a href="#">About UoN</a>
-            </li>
-            <li>
-                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">More</a>
-                <ul class="collapse list-unstyled" id="pageSubmenu">
+                <ul class="list-unstyled components">
                     <li>
-                        <a href="#">FAQs & Testimonials</a>
+                        <a href="#">Home</a>
+                    <li>
+                        <a href="#">What to Know</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">Directory</a>
                     </li>
                     <li>
-                        <a href="#">Social Media</a>
+                        <a href="#">Services</a>
+                    </li>            
+                    <li>
+                        <a href="#">About UoN</a>
                     </li>
                     <li>
-                        <a href="#">Contact Information</a>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">More</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li>
+                                <a href="#">FAQs & Testimonials</a>
+                            </li>
+                            <li>
+                                <a href="#">Social Media</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Information</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+                <ul class="list-unstyled CTAs">
+                    <li>
+                        <a href="https://www.newcastle.edu.au/" class="primaryBtn">UoN Website</a>
+                    </li>
+                    <li>
+                        <a href="https://myuon.newcastle.edu.au" class="secondaryBtn">My UoN</a>
+                    </li>
+                    <li>
+                        <a href="https://uonline.newcastle.edu.au/webapps/login/" class="primaryBtn">Blackboard</a>
+                    </li>
+                    <li>
+                        <a href="https://uon.okta.com/login/login.htm" class="secondaryBtn">My Hub</a>
                     </li>
                 </ul>
-            </li>
+            </nav>
 
-        </ul>
+            <!-- Page Content goes here-->
+            <div id="content">
 
-        <ul class="list-unstyled CTAs">
-            <li>
-                <a href="https://www.newcastle.edu.au/" class="primaryBtn">UoN Website</a>
-            </li>
-            <li>
-                <a href="https://myuon.newcastle.edu.au" class="secondaryBtn">My UoN</a>
-            </li>
-            <li>
-                <a href="https://uonline.newcastle.edu.au/webapps/login/" class="primaryBtn">Blackboard</a>
-            </li>
-            <li>
-                <a href="https://uon.okta.com/login/login.htm" class="secondaryBtn">My Hub</a>
-            </li>
-        </ul>
-    </nav>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
 
-    <!-- Page Content goes here-->
-    <div id="content">
+                        <button type="button" id="sidebarCollapse" class="navbar-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                            <div class="mainHeader container ">
+                                <!-- Main Header -->
+                                <h3 class="bg-1" id="#top">Welcome to KnowUon</h3>
+                            </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-
-                <button type="button" id="sidebarCollapse" class="navbar-btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                    <div class="mainHeader container ">
-                        <!-- Main Header -->
-                        <h3 class="bg-1" id="#top">Welcome to KnowUon</h3>
                     </div>
+                </nav>
 
+                <h2>Heading 2.1.1 testing from Anthony</h2>
+                <h2>Heading 2.1w
+                    .1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <div class="line"></div>
+
+                <h2>Lorem Ipsum 654321Dolor</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <div class="line"></div>
+
+                <h2>Lorem Ipsum12 Dolor</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <div class="line"></div>
+
+                <h3>Lorem Ipsum Dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-        </nav>
-
-        <h2>Heading 2.1.1 testing from Anthony</h2>
-        <h2>Heading 2.1w
-            .1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        <div class="line"></div>
-
-        <h2>Lorem Ipsum 654321Dolor</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        <div class="line"></div>
-
-        <h2>Lorem Ipsum12 Dolor</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        <div class="line"></div>
-
-        <h3>Lorem Ipsum Dolor</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-</div>
+        </div>
 
     </body>
 
