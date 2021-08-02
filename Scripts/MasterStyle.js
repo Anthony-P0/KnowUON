@@ -19,9 +19,13 @@ class MasterStyle extends React.Component {
                         <li>
                             <a href="#">Directory</a>
                         </li>
+                        
                         <li>
                             <a href="#">Services</a>
-                        </li>            
+                        </li>
+                        <li>
+                            <a href="uonMap.html">UoN Interactive Map</a>
+                        </li>
                         <li>
                             <a href="#">About UoN</a>
                         </li>

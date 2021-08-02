@@ -8,7 +8,10 @@ html {
     font-family: 'Courier New', Courier, monospace;
 }
 
-
+.mapStyle{
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
 
 /* Main Body Content */
 .pageContent{
