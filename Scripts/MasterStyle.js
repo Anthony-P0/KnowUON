@@ -4,16 +4,16 @@ class MasterStyle extends React.Component {
             <>
                  <nav id="sidebar">
                         <div className="sidebar-header box">
-                        <img src="Images/uon_horse.png" alt="UoN Logo" className="ULogo"></img>
+                        <img src="/Images/uon_horse.png" alt="UoN Logo" className="ULogo"></img>
                         <h3 style={{paddingLeft: "10px"}}>KnowUoN</h3>
                         </div>                    
 
                     <ul className="list-unstyled components">
                         <li>
-                            <a href="index.html">Home</a>
+                            <a href="/index.html">Home</a>
                         </li>
                         <li>
-                            <a href="test.html">What to Know</a>
+                            <a href="#">What to Know</a>
                         </li>
                         
                         <li>
@@ -24,7 +24,7 @@ class MasterStyle extends React.Component {
                             <a href="#">Services</a>
                         </li>
                         <li>
-                            <a href="uonMap.html">UoN Interactive Map</a>
+                            <a href="/Pages/uonMap.html">UoN Interactive Map</a>
                         </li>
                         <li>
                             <a href="#">About UoN</a>
@@ -39,7 +39,7 @@ class MasterStyle extends React.Component {
                                     <a href="#">Social Media</a>
                                 </li>
                                 <li>
-                                    <a href="contact us.html">Contact Information</a>
+                                    <a href="/Pages/contact.html">Contact Information</a>
                                 </li>
                             </ul>
                         </li>
