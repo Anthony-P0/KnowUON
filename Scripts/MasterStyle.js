@@ -44,7 +44,6 @@ class MasterStyle extends React.Component {
                             </ul>
                         </li>
                     </ul>
-
                     <ul className="list-unstyled CTAs">
                         <li>
                             <a href="https://www.newcastle.edu.au/" className="primaryBtn">UoN Website</a>
