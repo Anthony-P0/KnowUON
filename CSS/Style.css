@@ -3,6 +3,10 @@ html {
     scroll-behavior:smooth;
 }
 
+.hyperLink{
+    color: blue;
+}
+
 .mainHeader{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -283,3 +287,55 @@ a.secondaryBtn:hover {
         /* display: none; */
     }
 }
+
+/* https://www.bootdey.com/snippets/view/Clean-contact-cards-list#css */
+/* CONTACTS */
+.contact-box {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+  }
+  .contact-box > a {
+    color: inherit;
+  }
+  .contact-box.center-version {
+    border: 2px solid #0f0f0f;
+    padding: 0;
+  }
+  .contact-box.center-version > a {
+    display: block;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  .contact-box.center-version > a img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .contact-box.center-version address {
+    margin-bottom: 0;
+  }
+  .contact-box .contact-box-footer {
+    text-align: center;
+    background-color: #bebaba;
+    border-top: 1px solid #e7eaec;
+    padding: 15px 20px;
+
+    
+  }
+  
+  a{
+      text-decoration:none !important;    
+  }
+
+  /* .row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .row.display-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  } */
