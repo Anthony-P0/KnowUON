@@ -21,7 +21,7 @@ class MasterStyle extends React.Component {
                         </li>
                         
                         <li>
-                            <a href="#">Services</a>
+                            <a href="#">Support Services</a>
                         </li>
                         <li>
                             <a href="/Pages/uonMap.html">UoN Interactive Map</a>
