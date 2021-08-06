@@ -33,7 +33,7 @@ class MasterStyle extends React.Component {
                             <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">More</a>
                             <ul className="collapse list-unstyled" id="pageSubmenu">
                                 <li>
-                                    <a href="#">FAQs & Testimonials</a>
+                                    <a href="/Pages/FAQs.html">FAQs & Testimonials</a>
                                 </li>
                                 <li>
                                     <a href="#">Social Media</a>
