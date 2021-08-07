@@ -1,12 +1,36 @@
 // Maze docs: https://api.mazemap.com/js/v2.0.0/docs/#intro 
 // MazeMap load
+
+
+
+
+
 $(document).ready(function () {
 
+        // add default settings to callaghan
+        var campusID = 117;
+        var lgtude = 151.704143;
+        var ltude = -32.892697;
+        var zoomLvl = 15.1;
+
+
+
+  //  changeMap();
+/*
+
+    if(document.getElementById("orimbah").clicked == true){
+        alert("click2");
+        campusID = 193;
+        lgtude = 151.377435;
+        ltude = -33.357522;
+        zoomLvl = 16.3
+    }
+    */
         var myMap = new Mazemap.Map({
             container: 'map',
-            campuses: 117,
-            center: {lng: 151.704143, lat: -32.892697},
-            zoom: 15.1,
+            campuses: campusID,
+            center: {lng: lgtude, lat: ltude},
+            zoom: zoomLvl,
             zLevel: 1,
             zLevelControl: false,
             scrollZoom: true,
@@ -14,6 +38,10 @@ $(document).ready(function () {
             touchZoomRotate: true
         });
     
+
+
+
+
         myMap.on('load', function(){
             var customZLevelBar1 = new Mazemap.ZLevelBarControl( {
                 className: 'custom-zlevel-bar',
@@ -173,7 +201,7 @@ $(document).ready(function () {
 
         //search
         var mySearch = new Mazemap.Search.SearchController({
-            campusid: 117,
+            campusid: campusID,
     
             rows: 10,
     
@@ -227,6 +255,20 @@ $(document).ready(function () {
         //Zoom controls
         myMap.addControl(new Mazemap.mapboxgl.NavigationControl());
 
+        function test(){
+
+        }
 });
-    
-    
+/*    
+function changeMap(){
+    alert("1");
+
+    if(document.getElementById("orimbah").clicked == true){
+        alert("click");
+        campusID = 193;
+        lgtude = 151.377435;
+        ltude = -33.357522;
+        zoomLvl = 16.3
+    }
+    else{alert("no no")}
+}*/

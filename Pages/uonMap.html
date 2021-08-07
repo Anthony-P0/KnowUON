@@ -38,6 +38,7 @@
         <!-- Font Awesome JS -->
         <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+        
         <script src="/Scripts/JavaScript.js"></script>
 
         <!-- ReactJS components -->
@@ -98,13 +99,22 @@
                     </div>
                     <div class="row align-items-center">
                         <div class="col">
-                            
-                            <div class=" container" style="overflow:hidden;height:600px;width:84%;margin:auto;">
+                            <!-- the map -->
+                            <div class=" container" style="overflow:hidden;height:550px;width:84%;margin:auto;">
                                 <div id="map" class="mazemap mapStyle" style="width: 100%; height: 100%; "></div>
-
-                            </div>
+                            </div>                            
                         </div>
-                    </div>              
+                    </div> 
+                    
+                    <div class="row p-4">
+                        <div class="col">
+                            <button class="custom-btn btn-1" id="orimbah" onclick="changeMap()">Orimbah</button>
+                        </div>
+
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
