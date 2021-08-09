@@ -66,11 +66,11 @@ html {
 
 
 /* SideBar */
-
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
-    background: #d6d6d6; 
+    background: #e2e2e2; 
+    /* Page background colour */
 }
 p {
     font-family: 'Poppins', sans-serif;
@@ -381,3 +381,79 @@ a.secondaryBtn:hover {
       inset -4px -4px 6px 0 rgba(255,255,255,.2),
       inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
   }
+
+
+
+/*  FAQs */
+
+/* Accordion: https://freefrontend.com/bootstrap-accordions/ https://codepen.io/kbsnr02/pen/LYNMyzP*/
+
+/* body {
+    background: #232323;
+  } */
+
+  .accordion{
+    margin: 40px 0;
+  }
+  .accordion .item {
+        border: 2px solid #000;
+        margin-bottom: 20px;
+        background: #e2f9ff; /* back of answer area */
+  }
+
+  .t-p{
+    color: black;
+    padding: 20px 30px 10px 30px;
+  }
+  .accordion .item .item-header h2 button.btn.btn-link {
+      background: #202020; /* back of question part of accordion */
+      color: white; /*question text*/
+      border-radius: 0px;
+      font-family: 'Poppins';
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 2.5;
+      text-decoration: none;
+      
+      word-break: break-all;  
+      white-space:normal;
+
+  }
+  .accordion .item .item-header {
+      border-bottom: none;
+      background: transparent;
+      padding: 0px;
+      margin: 2px;
+  }
+  
+  .accordion .item .item-header h2 button {
+      color: white;
+      font-size: 20px;
+      padding: 15px;
+      display: block;
+      width: 100%;
+      text-align: left;
+  }
+  
+  /* .accordion .item .item-header h2 i {
+      float: right;
+      font-size: 30px;
+      color: #eca300;
+      background-color: black;
+      width: 60px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+  } */
+  
+  button.btn.btn-link.collapsed i {
+      transform: rotate(0deg);
+  }
+  
+  button.btn.btn-link i {
+      transform: rotate(180deg);
+      transition: 0.5s;
+  }
+  
