@@ -36,7 +36,7 @@ class MasterStyle extends React.Component {
                                     <a href="/Pages/FAQs.html">FAQs & Testimonials</a>
                                 </li>
                                 <li>
-                                    <a href="#">Social Media</a>
+                                    <a href="/Pages/social_media.html">Social Media</a>
                                 </li>
                                 <li>
                                     <a href="/Pages/contact.html">Contact Information</a>
