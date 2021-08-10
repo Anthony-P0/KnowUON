@@ -62,11 +62,11 @@ class MasterStyle extends React.Component {
                     </ul>
 
                     <div className="socialGroup">                          
-                        <a href="#" className="socialIcon" ><i className="fab fa-2x fa-instagram "></i></a>
-                        <a href="#" className="socialIcon"><i className="fab fa-2x fa-youtube "></i></a>
-                        <a href="#" className="socialIcon"><i className="fab fa-2x fa-twitter "></i></a>
-                        <a href="#" className="socialIcon"><i className="fab fa-2x fa-linkedin "></i></a>
-                        <a href="#" className="socialIcon"><i className="fab fa-2x fa-facebook "></i></a>
+                        <a href="https://instagram.com/uni_newcastle" className="socialIcon" ><i className="fab fa-2x fa-instagram "></i></a>
+                        <a href="https://www.youtube.com/user/universitynewcastle" className="socialIcon"><i className="fab fa-2x fa-youtube "></i></a>
+                        <a href="https://twitter.com/uni_newcastle" className="socialIcon"><i className="fab fa-2x fa-twitter "></i></a>
+                        <a href="https://au.linkedin.com/school/university-of-newcastle/" className="socialIcon"><i className="fab fa-2x fa-linkedin "></i></a>
+                        <a href="https://facebook.com/TheUniversityofNewcastleAustralia" className="socialIcon"><i className="fab fa-2x fa-facebook "></i></a>
                       </div>
 
 
