@@ -24,7 +24,7 @@ html {
 }
 .box {
     display: flex;
-    vertical-align:middle;    
+    vertical-align:middle;
  }
 
 /* Uni Logo */
@@ -69,7 +69,7 @@ html {
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
-    background: #e2e2e2; 
+    background: #e2e2e2;
     /* Page background colour */
 }
 p {
@@ -139,7 +139,7 @@ a:focus {
 
 #sidebar .sidebar-header {
     color: rgb(2, 2, 2);
-    
+
     padding: 20px;
     background: #ffffff;
 }
@@ -324,11 +324,11 @@ a.secondaryBtn:hover {
     border-top: 1px solid #e7eaec;
     padding: 15px 20px;
 
-    
+
   }
-  
+
   a{
-      text-decoration:none !important;    
+      text-decoration:none !important;
   }
 
   /* .row.display-flex {
@@ -373,11 +373,11 @@ a.secondaryBtn:hover {
       width: 30px;
       height: 100%;
       background-color: #fff;
-  
+
   }
   .btn-1:active{
     box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
-                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+                -4px -4px 6px 0 rgba(116, 125, 136, .2),
       inset -4px -4px 6px 0 rgba(255,255,255,.2),
       inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
   }
@@ -414,8 +414,8 @@ a.secondaryBtn:hover {
       font-weight: 400;
       line-height: 2.5;
       text-decoration: none;
-      
-      word-break: break-all;  
+
+      word-break: break-all;
       white-space:normal;
 
   }
@@ -425,7 +425,7 @@ a.secondaryBtn:hover {
       padding: 0px;
       margin: 2px;
   }
-  
+
   .accordion .item .item-header h2 button {
       color: white;
       font-size: 20px;
@@ -434,7 +434,7 @@ a.secondaryBtn:hover {
       width: 100%;
       text-align: left;
   }
-  
+
   /* .accordion .item .item-header h2 i {
       float: right;
       font-size: 30px;
@@ -447,13 +447,69 @@ a.secondaryBtn:hover {
       align-items: center;
       border-radius: 5px;
   } */
-  
+
   button.btn.btn-link.collapsed i {
       transform: rotate(0deg);
   }
-  
+
   button.btn.btn-link i {
       transform: rotate(180deg);
       transition: 0.5s;
   }
-  
+
+
+  /* Social Media */
+
+.socialGroup:hover > a {
+    transition: 0.5s ease-in-out;
+    transform: scale(0.95);
+    filter: blur(2px);
+}
+
+.socialIcon {
+    transition: 0.5s ease-in-out;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 15px;
+  }
+
+    .socialGroup .socialIcon:hover {
+        transition: 0.5s ease-in-out;
+        filter: blur(0px);
+        transform: scale(100);
+    }
+
+    .fa-instagram {
+        color: white;
+        /* color: rgb(195, 0, 144) */
+      }
+      
+    .fa-youtube {
+        color: white;
+        /* color:red */
+    }
+
+      
+    /* .fa-youtube:hover {
+        color: red;
+    } */
+
+    .fa-twitter {
+        color: white;
+        /* color: rgb(20, 160, 241) */
+      }
+
+    .fa-linkedin {
+        color: white;
+        /* color: rgb(30, 101, 179) */
+      }     
+
+    .fa-facebook {
+        color: white;
+        /* color: rgb(62, 82, 195) */
+      }
+
+  /* End of socials  */
+
+
+
