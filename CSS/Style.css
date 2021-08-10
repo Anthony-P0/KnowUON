@@ -511,5 +511,27 @@ a.secondaryBtn:hover {
 
   /* End of socials  */
 
+/* What to Know */
 
+.collapse-button {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+  }
+  
+  .collapsible-content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+  }
+  
+  .down-arrow {
+    text-align: center;
+    margin-top: 5px;
+    float: right;
+  }  
 
+/* End What to Know */

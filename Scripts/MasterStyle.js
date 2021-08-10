@@ -15,7 +15,7 @@ class MasterStyle extends React.Component {
                             <a href="/index.html">Home</a>
                         </li>
                         <li>
-                            <a href="#">What to Know</a>
+                            <a href="/Pages/whatToKnow.html">What to Know</a>
                         </li>
                         
                         <li>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<!-- Reference: Sidebar used from https://bootstrapious.com/p/bootstrap-sidebar -->
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>KnowUON</title>
+        
+        <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+        <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+        <link rel="stylesheet" href="../CSS/Style.css">
+
+    </head>
+
+    <body>
+
+        <!-- jQuery CDN - Slim version (=without AJAX) -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!-- Popper.JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <!-- jQuery Custom Scroller CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+        <!-- Font Awesome JS -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+        <script src="/Scripts/JavaScript.js"></script>
+
+        <!-- ReactJS components -->
+        <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+        <script type="text/babel" src="/Scripts/MasterStyle.js"></script>
+
+        
+
+
+        
+        <!-- Render React - The Sidebar gets generated here -->
+        <script type="text/babel">
+            ReactDOM.render(<MasterStyle />, document.querySelector('.menu'))
+        </script>
+
+        <div class="wrapper">
+            <!-- Sidebar  -->
+
+            <div >
+                <div class="menu"></div>
+                <!-- React render goes up to this div -->
+            </div>
+
+
+            <!-- Page Content goes here-->
+            <div id="content">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+
+                        <button type="button" id="sidebarCollapse" class="navbar-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                            <div class="mainHeader container ">
+                                <!-- Main Header -->
+                                <h3 class="bg-1" id="#top">What to Know</h3>
+                            </div>
+
+                    </div>
+                </nav>
+                <!-- Content goes within that div > -->
+                <div class="container">
+
+                    <h2>Before Uni Starts To-Do List</h2>
+                    <p>
+                        Below is a list of recommended activities to do before university starts. 
+                        By doing these activities new students will be able to start their first year 
+                        at the University of Newcastle with less stress, enabling them to focus on their
+                        studies from the get go.
+                    </p>
+                    <p>Before following the To-Do List you must:</p>
+                    <ul>
+                        <li>Accept your degree</li>
+                        <li>Plan your degree</li>
+                        <li>Activate your Student account</li>
+                        <li>Complete your mandatory To-Do List on myHub</li>
+                        <li>Read your Program Handbook and Program Plan</li>
+                        <li>Enrol in Courses on myHub</li>
+                        <li>Register classes on myTimetable</li>
+                    </ul>
+                    <p>To-Do:</p>
+                    <ul>
+                        <li>Organise your timetable</li>
+                        <li>Get your Student ID</li>
+                        <li>Know the online systems and services including Blackboard (UONline), myUON, NUmail and myHub</li>
+                        <li>Understand UON's 
+                            <a href="https://policies.newcastle.edu.au/students" class="hyperLink">Student Policies</a> 
+                            and 
+                            <a href="https://www.newcastle.edu.au/current-students/study-essentials/forms-and-guides" class="hyperLink">
+                                Forms
+                            </a>
+                        </li>
+                        <li>Know your way around your Campus using our 
+                            <a href="">maps</a>
+                        </li>
+                        <li>Find
+                            <a href="https://www.newcastle.edu.au/study/student-living" class="hyperLink">accommodation</a>
+                            if you need to
+                        </li>
+                        <li>Get to know UON’s
+                            <a href="">Support Services</a>
+                        </li>
+                        <li>If you are student with a disability, register with 
+                            <a href="https://www.newcastle.edu.au/current-students/support/personal/accessability" class="hyperLink">
+                                AccessAbility
+                            </a>
+                        </li>
+                        <li>If you are an international student, check out the  
+                            <a href="https://www.newcastle.edu.au/study/international" class="hyperLink">Study International</a>
+                            information page
+                        </li>
+                        <li>Complete the University Academic Integrity Module on Blackboard</li>
+                        <li>Complete the Consent Matters Module on Blackboard</li>
+                        <li>
+                            Learn about the experiences UON offers outside of your studies like 
+                            <a href="https://www.newcastle.edu.au/current-students/uni-life/clubs-and-societies" class="hyperLink">
+                                Clubs and Societies
+                            </a>
+                        </li>
+                        <li>Attend Orientation</li>
+                        <li>Be yourself and have fun!</li>
+                    </ul>
+    
+                    <div class="line"></div>
+    
+                    <h2>What to Know by Week 1?</h2>
+                    <p>
+                        By week 1 at the University of Newcastle new students will need to know important information. 
+                        This information will be vital to starting and completing your first semester, as well as helping 
+                        avoid unnecessary stress.
+                    </p>
+                    <p>Here is What You Need to Know by Week 1:</p>
+    
+                    <button type="button" class="collapse-button bg-light">Courses <i class="fas fa-angle-down down-arrow"></i></button>
+                    <div class="collapsible-content">
+                        <p>
+                            Understand what you will be learning in your enrolled courses, what the course will involve
+                            (assessments, assignments, etc.) and, what will be expected from you. All can be found in your
+                            Course Outline on Blackboard.
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                    <button type="button" class="collapse-button bg-light">Classes <i class="fas fa-angle-down down-arrow"></i></button>
+                    <div class="collapsible-content">
+                        <p>
+                            Make sure you know where your classes (lectures, tutorials, etc.) will be held, and make sure 
+                            you know when your classes will run. Your timetable on myTimetable will provide all this information.
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                    <button type="button" class="collapse-button bg-light">Important People <i class="fas fa-angle-down down-arrow"></i></button>
+                    <div class="collapsible-content">
+                        <p>
+                            Make sure you know who the important people are during your time at university. These people will
+                            include Program Convenors, Course Coordinators, and anyone involved in your program and courses. Please
+                            use our <a href="#" class="hyperLink">Directory</a>. 
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                    <button type="button" class="collapse-button bg-light">Blackboard <i class="fas fa-angle-down down-arrow"></i></button>
+                    <div class="collapsible-content">
+                        <p>
+                            Blackboard (UONline) is an online system/tool used for learning. It provides the learning resources 
+                            and technologies needed for you to learn the skills and knowledge of your courses.
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                    <button type="button" class="collapse-button bg-light">Locations <i class="fas fa-angle-down down-arrow"></i></button>
+                    <div class="collapsible-content">
+                        <p>
+                            Make sure you know your way around and important locations on your campus. These locations 
+                            will help you learn, stay healthy and stress free, and allow you to take time out from study. 
+                            These locations can be found on our 
+                            <a href="/Pages/uonMap.html" class="hyperLink">Interactive Map</a> 
+                            and our
+                            <a href="#" class="hyperLink">Support Services</a> page.
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                    <button type="button" class="collapse-button bg-light">Supports <i class="fas fa-angle-down down-arrow"></i></button>
+                    <div class="collapsible-content">
+                        <p>
+                            Make sure you know the supports and services available to you. These supports and services can 
+                            be found online and on-campus. They will help you get through your time at UON and make sure UON 
+                            can suit your needs. These supports and services can be found on our <a>Support and Services</a>
+                            page.
+                        </p>
+                    </div>
+
+                    <!-- script for a collapsible element -->
+                    <script src="/Scripts/CollapsibleButton.js"></script>
+    
+                    <div class="line"></div>
+    
+                    <h2>What a Typical Semester Feels and Looks Like?</h2>
+                    <p>
+                        The first semester as a new student can cause you to feel many different emotions. You might feel excited about 
+                        starting something new and at the same time could feel overwhelmed towards the same prospect. As a new student
+                        the semester can feel daunting as it can look like there will be a lot of work involved, but it can also be
+                        refreshing as the semester looks like a new challenge and change.
+                    </p>
+                    <p>
+                        Starting a new semester can feel like it moves too fast or even slow which can cause frustration and anxiety 
+                        as you think university is boring or too much to handle, leading to stress. But if you manage to get through 
+                        the first few weeks of the semester, you will find yourself in a routine without all that stress. 
+                           The start of a new semester can bring positive thoughts and emotions too. For example, learning new information 
+                        about your area of study can make you feel a keen desire to learn and strive to succeed. And with this desire to
+                        learn you can feel like university is where you want to be. 
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        
+    </body>
+
+</html>
