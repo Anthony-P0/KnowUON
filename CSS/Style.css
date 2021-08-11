@@ -535,3 +535,35 @@ a.secondaryBtn:hover {
   }  
 
 /* End What to Know */
+
+/* Testimonials */
+
+.testimonialCard {
+    background-color: white;
+    width: 900px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px grey;
+    margin:0 auto;
+}
+
+.testimonialText{
+    padding: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+    color: #000;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.signedBy {
+    color: rgb(63, 62, 62);
+    padding-left: 5%;
+    font-style: italic;
+    
+
+}
+
+/* End Testimonials */

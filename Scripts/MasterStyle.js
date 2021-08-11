@@ -32,13 +32,17 @@ class MasterStyle extends React.Component {
                             <a href="#">About UoN</a>
                         </li>
                         <li>
+                            <a href="/Pages/FAQs.html">FAQs</a>
+                        </li>
+
+                        <li>
                             <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">More</a>
                             <ul className="collapse list-unstyled" id="pageSubmenu">
                                 <li>
-                                    <a href="/Pages/FAQs.html">FAQs & Testimonials</a>
+                                    <a href="/Pages/studentTestimonials.html">Student Testimonials</a>
                                 </li>
                                 <li>
-                                    <a href="/Pages/social_media.html">Social Media</a>
+                                    <a href="/Pages/studentResources.html">Student Resources</a>
                                 </li>
                                 <li>
                                     <a href="/Pages/contact.html">Contact Information</a>
@@ -60,6 +64,9 @@ class MasterStyle extends React.Component {
                             <a href="https://uon.okta.com/login/login.htm" className="secondaryBtn">My Hub</a>
                         </li>
                     </ul>
+                    
+                    <br></br>
+                    <br></br>
 
                     <div className="socialGroup">                          
                         <a href="https://instagram.com/uni_newcastle" className="socialIcon" ><i className="fab fa-2x fa-instagram "></i></a>
