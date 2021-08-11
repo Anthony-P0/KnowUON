@@ -397,13 +397,13 @@ a.secondaryBtn:hover {
   }
   .accordion .item {
         border: 2px solid #000;
-        margin-bottom: 20px;
-        background: #e2f9ff; /* back of answer area */
+        margin-bottom: 20px; /* Space between the boxes */
+        background: #ffffff; /* back of answer area */
   }
 
   .t-p{
     color: black;
-    padding: 20px 30px 10px 30px;
+    padding: 15px 30px 10px 30px; /* Answer Padding */
   }
   .accordion .item .item-header h2 button.btn.btn-link {
       background: #202020; /* back of question part of accordion */
@@ -429,7 +429,7 @@ a.secondaryBtn:hover {
   .accordion .item .item-header h2 button {
       color: white;
       font-size: 20px;
-      padding: 15px;
+      padding: 10px;
       display: block;
       width: 100%;
       text-align: left;
