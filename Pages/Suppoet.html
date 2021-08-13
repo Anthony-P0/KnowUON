@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<!-- Reference: Sidebar used from https://bootstrapious.com/p/bootstrap-sidebar -->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>KnowUON</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <link rel="stylesheet" href="../CSS/Style.css">
+
+    <!-- Need for socials -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <style>
+        .what p{
+            font-size:40px
+
+        }
+        .word p{
+            font-size:40px
+
+        }
+        .car p{
+            text-align:center}
+        .nav ul {
+            list-style-type: none;
+            margin: 10;
+            padding: 0;
+            overflow: hidden;
+            background-color: 		#FFFFFF;
+        }
+        .nav li {
+            float: left;
+        }
+        .nav-a {
+            display: block;
+            color: gray;
+            text-align: center;
+            padding: 14px 86px;
+            text-decoration: none;
+
+        }
+        .nav-a:hover{
+            background-color: 	#D0D0D0;
+        }
+
+        img
+        {
+            float:left;
+            margin-right: 2cm;
+        }
+        ul li{
+            list-style-type: none;
+        }
+        p-item {
+            height: 300px;
+
+        }
+        div.img {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 240px;
+        }
+
+        div.img:hover {
+            border: 1px solid #777;
+        }
+
+        div.img img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+<!-- jQuery CDN - Slim version (=without AJAX) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!-- Popper.JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+<!-- Font Awesome JS -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+<script src="/Scripts/JavaScript.js"></script>
+
+<!-- ReactJS components -->
+<script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<script type="text/babel" src="/Scripts/MasterStyle.js"></script>
+
+
+
+
+<!-- Render React - The Sidebar gets generated here -->
+<script type="text/babel">
+    ReactDOM.render(<MasterStyle />, document.querySelector('.menu'))
+</script>
+
+<div class="wrapper">
+    <!-- Sidebar  -->
+
+    <div >
+        <div class="menu"></div>
+        <!-- React render goes up to this div -->
+    </div>
+
+
+    <!-- Page Content goes here-->
+    <div id="content">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+
+                <button type="button" id="sidebarCollapse" class="navbar-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="mainHeader container ">
+                    <!-- Main Header -->
+                    <h4 class="bg-1" id="#top">Student support</h4>
+                </div>
+
+            </div>
+        </nav>
+        <!-- Content goes within that div > -->
+        <div class="container">
+            <div class="nav">
+                <ul>
+
+                <li><a class="nav-a" href ="https://www.newcastle.edu.au/current-students/support/academic">Academic support</a></li>
+
+                <li><a class="nav-a" href ="https://www.newcastle.edu.au/current-students/support/personal">Personal support
+                </a></li>
+                
+                <li><a class="nav-a" href ="https://www.newcastle.edu.au/current-students/support/it">IT support</a></li>
+                <li><a class="nav-a" href ="https://askuon.newcastle.edu.au/app/contact_us">Help</a></li>
+                </ul>
+
+
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="what">
+                <p>
+                    What is student support?
+                </p>
+            </div>
+
+            <p>The university will help you no matter what problems you encounter. The school will help you in all aspects for the
+                freshmen who have just started. If you need academic support, the school will provide you with online or offline one-to-one pass courses to solve your
+                problems effectively. If you need technical support, the school provides students with computers, scanners, laboratories, etc. If you need to consult about
+                health or employment, the school will provide you with related services. In addition, a dedicated team of consultants will provide necessary
+                assistance to international students. </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class=":main_list">
+                <ul>
+                    <li>
+                        <p class="p-item">
+                            <a href = "https://www.newcastle.edu.au/library">
+                            <img src ="/KnowUON-master/images/Library.png"width ="170"  height = "120" alt ="Library" /></a>
+
+
+                            The library is the most frequented place for students. The school provides offline and online
+                            resources for students. Students can borrow books for free or search for e-journals or e-books
+                            with their student IDs. The library will also provide students with learning space for students
+                            to use, and online library support will be provided for remote student libraries.
+
+
+                        </p>
+                    </li>
+                    <hr/>
+                    <li>
+                        <p class="p-item">
+                            <a href = "https://www.newcastle.edu.au/current-students/support/academic/learn-from-other-students">
+                                <img src ="/KnowUON-master/images/pass.png" width ="170"  height = "120" alt ="pass" /></a>
+                            The Peer Assisted Learning Course (PASS) provides a platform for you to compare notes with other
+                            students, discuss difficult concepts, and review weekly materials. PASS is sometimes hosted by the
+                            outstanding graduates of the previous year. Compared with the instructor, it will understand the
+                            doubts of the students.
+
+
+                        </p>
+                    </li>
+                    <hr/>
+                    <li>
+                        <p class="p-item">
+                            <a href = "https://uonau.service-now.com/itservices?id=kb_article_view&sysparm_article=KB0010972&sys_kb_id=3f9def221b8aa0106f1298eb274bcb29&spa=1">
+                                <img src ="/KnowUON-master/images/IT Service.png" width ="170"  height = "120" alt ="IT Service" /></a>
+                            For newly enrolled students, they often encounter problems with the use of some school websites. If you encounter IT
+                            service problems, you can try the available ServiceUON help articles. If you still need to report a problem or if your
+                            IT problem is urgent, please call the IT Service Desk.
+                        </p>
+                    </li>
+                    <hr/>
+                    <li>
+                        <p class="p-item">
+                            <a href = "https://uonline.newcastle.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_909_1">
+                                <img src ="/KnowUON-master/images/Blackboard.png" width ="170"  height = "120" alt ="Blackboard" /></a>
+                            UONline (Blackboard) is the website service most frequently used by every student. The school recommends that
+                            every freshman learns to use UONline (Blackboard) to understand the website. Students can find all the relevant
+                            resources of the registered courses in UONline (Blackboard).
+                        </p>
+                    </li>
+
+                    <hr/>
+                </ul>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <div>
+                <ul>
+                    <li>
+                        <a class="hyperLink" href="https://www.newcastle.edu.au/current-students/support/academic" style="font-weight:bold;">Academic support</a><br>
+                        Whether you are struggling with your own studies, or you are not sure how to improve your score, the school will provide range of people, location and program support. If you need to improve academic skills, writing, critical reading, problem solving and logical thinking, Maths and Stats , as well as Research Writing for fresh students. This team of dedicated Learning Advisors provide free services to all University of Newcastle students.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="hyperLink" href="https://www.newcastle.edu.au/current-students/support/personal" style="font-weight:bold;">Personal support</a><br>
+                        The university will also provide students with necessary person support. If you need the spiritual life of the university community, or you have encountered some safety problems, or you have encountered health problems such as physical or psychological difficulties, the university will provide a series of support. If you encounter safety issues, please contact Campus Care in time. If you have a health problem, the school's health counselor is the expert who connects you to support services. Professional help is also provided for international student or Indigenous student schools.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="hyperLink" href="https://www.newcastle.edu.au/current-students/support/it" style="font-weight:bold;">IT support</a><br>
+                        The university provides students with all the necessary IT elements. If you are on campus, you can use thousands of computers and devices, as well as wireless and wired networks. If you are a distance learning student, you can connect to the university’s computer account suite and have free access to cutting-edge software and cloud storage. IT Service Desk will also support you in troubleshooting.
+                    </li>
+                </ul>
+
+            </div>
+
+            <br>
+            <br>
+            <div class="word">
+                <p>Get more help</p>
+
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <a target="_blank" href="https://www.newcastle.edu.au/current-students/support/personal/international-students">
+                        <img loading="lazy" src="/KnowUON-master/images/internationalsupport.png" alt="internationalsupport" width="300" height="200">
+                    </a>
+                    <div class="desc">If you are an international student </div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="img">
+                    <a target="_blank" href="https://www.newcastle.edu.au/current-students/support/personal/accessability"">
+                        <img loading="lazy" src="/KnowUON-master/images/disabilitysupport.png" alt="disabilitysupport" width="300" height="200">
+                    </a>
+                    <div class="desc">If you are looking for disability or medical support</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="img">
+                    <a target="_blank" href="https://www.newcastle.edu.au/study/pathways/open-foundation/support-services">
+                        <img loading="lazy" src="/KnowUON-master/images/Enablingpathways.png" alt="Enablingpathways" width="300" height="200">
+                    </a>
+                    <div class="desc">Students in Open Foundation, Newstep</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="img">
+                    <a target="_blank" href="https://www.newcastle.edu.au/current-students/support/personal/indigenous-students">
+                        <img loading="lazy" src="/KnowUON-master/images/indigenoussupport.png" alt="indigenoussupport" width="300" height="200">
+                    </a>
+                    <div class="desc">If you are an indigenous student</div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+
+            <hr>
+            <div class = "car">
+
+
+
+                <p>
+                    If you don’t find the answer your looking for, <a class="hyperLink" href="https://askuon.newcastle.edu.au/app/hot_topics" style="font-weight:bold;"> look here </a>
+                    for further information.
+                </p>
+
+                </div>
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+
+</html>
