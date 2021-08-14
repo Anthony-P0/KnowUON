@@ -21,10 +21,11 @@ class MasterStyle extends React.Component {
                         <li>
                             <a href="#">Directory</a>
                         </li>
-                        
+
                         <li>
-                            <a href="#">Support Services</a>
+                            <a href="/Pages/studentResources.html">Student Resources</a>
                         </li>
+
                         <li>
                             <a href="/Pages/uonMap.html">UoN Interactive Map</a>
                         </li>
@@ -40,10 +41,11 @@ class MasterStyle extends React.Component {
                             <ul className="collapse list-unstyled" id="pageSubmenu">
                                 <li>
                                     <a href="/Pages/studentTestimonials.html">Student Testimonials</a>
-                                </li>
+                                </li>                        
                                 <li>
-                                    <a href="/Pages/studentResources.html">Student Resources</a>
+                                    <a href="/Pages/support.html">Support Services</a>
                                 </li>
+
                                 <li>
                                     <a href="/Pages/contact.html">Contact Information</a>
                                 </li>
