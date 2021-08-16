@@ -534,6 +534,18 @@ a.secondaryBtn:hover {
     float: right;
   }  
 
+  .to-do-list {
+      float: right;
+      padding-bottom: 220px;
+      padding-left: 60px;
+  }
+
+  .to-do-image {
+      width: 80%;
+      max-width: 100%;
+      height: auto;
+  }
+
 /* End What to Know */
 
 /* Testimonials */
