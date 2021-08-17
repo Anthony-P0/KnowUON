@@ -77,7 +77,7 @@ p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: rgb(22, 22, 22);
+    color: rgb(22, 22, 22); /*Page text colour*/
 }
 
 a,
@@ -126,8 +126,8 @@ a:focus {
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #252527;/* 2b2e3d */
-    color: #fff;
+    background: #252527;/* Side bar colour */
+    color: #fff; /* sidebar text colour*/
     transition: all 0.3s;
 }
 /* ^ colour of the sidebar, change color for text, background for background */
@@ -141,7 +141,7 @@ a:focus {
     color: rgb(2, 2, 2);
 
     padding: 20px;
-    background: #ffffff;
+    background: #ffffff;/* sidebar head colour*/
 }
 
 #sidebar ul.components {
