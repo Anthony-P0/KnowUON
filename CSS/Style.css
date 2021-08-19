@@ -69,7 +69,7 @@ html {
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
-    background: #e2e2e2; /* Page background colour */   
+    background: #ffffff; /* Page background colour  e2e2e2*/   
 }
 p {
     font-family: 'Poppins', sans-serif;
@@ -125,7 +125,7 @@ a:focus {
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #161616;/* Side bar colour */
+    background: #444444;/* Side bar colour */
     color: #fff; /* sidebar text colour*/
     transition: all 0.3s;
 }
@@ -140,7 +140,7 @@ a:focus {
     color: rgb(2, 2, 2);
 
     padding: 20px;
-    background: #ffffff;/* sidebar head colour*/
+    background: rgb(16,163,185);/* sidebar head colour*/
 }
 
 #sidebar ul.components {
@@ -202,15 +202,22 @@ ul.CTAs a {
 
 /* buttons */
 a.primaryBtn {
-    background: rgb(233, 233, 233); /* toolbar button colours */
+    background: rgb(16,163,185); /* toolbar button colours */
     color: #000000; /* toolbar text colours */
 }
 
+a.secondaryBtn {
+    background: rgb(41, 41, 41); /* toolbar button colours */
+    color: #ffffff; /* toolbar text colours */
+}
+
+
+/* 
 a.secondaryBtn,
 a.secondaryBtn:hover {
-    background: #535357 !important; /* toolbar button colours */
-    color: #fff !important; /* toolbar text colours */
-}
+    background: rgb(16,163,185) !important; 
+    color: #fff !important; 
+} */
 
 
 /* ---------------------------------------------------
@@ -234,7 +241,7 @@ a.secondaryBtn:hover {
 #sidebarCollapse {
     width: 40px;
     height: 40px;
-    background: #f8f9fa;
+    background: rgb(16,163,185); /* close button colour of header/sidebar*/
     cursor: pointer;
 }
 /* aaa */
