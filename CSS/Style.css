@@ -10,6 +10,7 @@ html {
 .mainHeader{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    background: rgb(4, 150, 218);
 }
 
 .mapStyle{
@@ -24,7 +25,7 @@ html {
 }
 .box {
     display: flex;
-    vertical-align:middle;
+    vertical-align:middle;  
  }
 
 /* Uni Logo */
@@ -35,7 +36,7 @@ html {
 }
 
 .bg-1{
-    color: rgb(0, 0, 0);
+    color: #fff;
     font-size: 40px;
     padding-left: 2%;
     padding-right: 2%;
@@ -137,10 +138,10 @@ a:focus {
 }
 
 #sidebar .sidebar-header {
-    color: rgb(2, 2, 2);
+    color: #fff;
 
     padding: 20px;
-    background: rgb(16,163,185);/* sidebar head colour*/
+    background: rgb(4, 150, 218);/* sidebar head colour*/
 }
 
 #sidebar ul.components {
@@ -202,12 +203,12 @@ ul.CTAs a {
 
 /* buttons */
 a.primaryBtn {
-    background: rgb(16,163,185); /* toolbar button colours */
+    background: rgb(4, 150, 218); /* toolbar button colours */
     color: #000000; /* toolbar text colours */
 }
 
 a.secondaryBtn {
-    background: rgb(41, 41, 41); /* toolbar button colours */
+    background:  /* toolbar button colours */
     color: #ffffff; /* toolbar text colours */
 }
 
@@ -215,7 +216,7 @@ a.secondaryBtn {
 /* 
 a.secondaryBtn,
 a.secondaryBtn:hover {
-    background: rgb(16,163,185) !important; 
+    background: rgb(9, 204, 253) =!important; 
     color: #fff !important; 
 } */
 
@@ -241,7 +242,7 @@ a.secondaryBtn:hover {
 #sidebarCollapse {
     width: 40px;
     height: 40px;
-    background: rgb(16,163,185); /* close button colour of header/sidebar*/
+    background: rgb(4, 150, 218); /* close button colour of header/sidebar*/
     cursor: pointer;
 }
 /* aaa */
