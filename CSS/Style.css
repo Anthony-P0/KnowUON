@@ -208,7 +208,7 @@ a.primaryBtn {
 }
 
 a.secondaryBtn {
-    background:  /* toolbar button colours */
+    background: rgb(80, 80, 80);  /* toolbar button colours */
     color: #ffffff; /* toolbar text colours */
 }
 
