@@ -1,4 +1,3 @@
-/* testing */
 html {
     scroll-behavior:smooth;
 }
@@ -7,10 +6,52 @@ html {
     color: blue;
 }
 
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ebebeb; /* Page background colour  e2e2e2*/ 
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: rgb(0, 0, 0); /*Page text colour*/
+}
+
+.backgroundImage{
+      /* The image used */
+  background-image: url("/Images/harbour.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.textCards{ 
+    background-color: white;
+    background: rgba(255, 255, 255, 0.8);
+
+    color: #000;
+    align-content: center;
+
+    border-radius: 25px;
+
+    margin: auto;
+    width: 80%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
 .mainHeader{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    background: rgb(4, 150, 218);
 }
 
 .mapStyle{
@@ -67,18 +108,7 @@ html {
 
 
 /* SideBar */
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-body {
-    font-family: 'Poppins', sans-serif;
-    background: #ffffff; /* Page background colour  e2e2e2*/   
-}
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: rgb(22, 22, 22); /*Page text colour*/
-}
+
 
 a,
 a:hover,
@@ -126,7 +156,7 @@ a:focus {
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #444444;/* Side bar colour */
+    background: #2c2c2c;/* Side bar colour */
     color: #fff; /* sidebar text colour*/
     transition: all 0.3s;
 }
@@ -141,7 +171,9 @@ a:focus {
     color: #fff;
 
     padding: 20px;
-    background: rgb(4, 150, 218);/* sidebar head colour*/
+    background: rgb(61, 120, 172);/* sidebar head colour*/
+    height: 90px;
+    border-right: 1px solid #000;
 }
 
 #sidebar ul.components {
@@ -203,7 +235,7 @@ ul.CTAs a {
 
 /* buttons */
 a.primaryBtn {
-    background: rgb(4, 150, 218); /* toolbar button colours */
+    background: rgb(61, 120, 172); /* toolbar button colours */
     color: #000000; /* toolbar text colours */
 }
 
@@ -227,12 +259,14 @@ a.secondaryBtn:hover {
 
 #content {
     width: calc(100% - 250px);
-    padding: 40px;
+    /*padding: 40px;*/  /*page padding*/
     min-height: 100vh;
     transition: all 0.3s;
     position: absolute;
     top: 0;
     right: 0;
+    padding-bottom: 2%;
+    
 }
 
 #content.active {
@@ -242,16 +276,22 @@ a.secondaryBtn:hover {
 #sidebarCollapse {
     width: 40px;
     height: 40px;
-    background: rgb(4, 150, 218); /* close button colour of header/sidebar*/
+    background: rgb(61, 120, 172); /* close button colour of header/sidebar*/
     cursor: pointer;
 }
+
+.titleHeader {
+    background-color: rgb(61, 120, 172); /* background colour of the title header */
+    height: 90px;
+}
+
 /* aaa */
 #sidebarCollapse span {
     width: 80%;
     height: 2px;
     margin: 0 auto;
     display: block;
-    background: #555;
+    background: rgb(22, 22, 22); /* colour of the close / open button of the sidebar*/
     transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
     transition-delay: 0.2s;
 }
