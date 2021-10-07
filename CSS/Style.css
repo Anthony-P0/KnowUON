@@ -285,6 +285,10 @@ a.secondaryBtn:hover {
     height: 90px;
 }
 
+.li-heading {
+    font-weight: bold;
+}
+
 /* aaa */
 #sidebarCollapse span {
     width: 80%;
