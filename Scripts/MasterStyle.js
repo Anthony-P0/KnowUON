@@ -19,7 +19,7 @@ class MasterStyle extends React.Component {
                         </li>
                         
                         <li>
-                            <a href="#">Directory</a>
+                            <a href="/Pages/Directory.html">Directory</a>
                         </li>
 
                         <li>
