@@ -631,4 +631,65 @@ a.secondaryBtn:hover {
 
 /* End Testimonials */
 
+/* Directory */
 
+.lbl-heading {
+    font-weight: bold;
+    padding: 12pz 12px 12px 0;
+    display: inline-block;
+}
+
+#program, #role, #campus {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(61, 120, 172);
+    border-radius: 4px;
+    resize: vertical;
+}
+
+#search-directory[type=submit] {
+    background-color: rgb(61, 120, 172);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#search-directory[type=submit]:hover {
+    background-color: rgb(84, 164, 235);
+}
+
+.form-container {
+    border: 1px solid rgb(61, 120, 172);
+    border-radius: 5px;
+    background: rgb(236, 247, 252);
+    padding: 20px;
+    color: black;
+}
+
+.lbl-column {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+
+.field-column {
+    float: left;
+    width: 80%;
+    margin-top: 6px;
+}
+
+.form-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .lbl-column, .field-column, #search-directory[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/* End Directory */

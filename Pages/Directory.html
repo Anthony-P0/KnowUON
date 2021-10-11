@@ -92,29 +92,61 @@
 
                     <div class="line"></div>
 
-                    <form>
-                        <label for="program" class="li-heading">Program/Degree:</label>
-                        <select id="program" name="program">
-                            <option>Choose program...</option>
-                            <option value="computer-science">Computer Science</option>
-                            <option value="data-science">Data Science</option>
-                            <option value="information-technology">Information Technology</option>
-                            <option value="software-engineering">Software Engineering</option>
-                        </select>
-                        <br>
-                        <br>
-                        <label for="role" class="li-heading">Role:</label>
-                        <select id="role" name="role">
-                            <option>Choose role...</option>
-                            <option value="academic-advisor">Academic Program Advisor</option>
-                            <option value="faculty-liason">Faculty Liason Officer</option>
-                            <option value="program-convenor">Program Convenor</option>
-                            <option value="progress-advisor">Student Progress Advisor</option>
-                        </select>
-                        <br>
-                        <br>
-                        <input type="submit" value="Search">
-                    </form>
+                    <div class="form-container">
+                        <form>
+                            <div class="form-row">
+                                <div class="lbl-column">
+                                    <label for="program" class="lbl-heading">Program/Degree:</label>
+                                </div>
+                                <div class="field-column">
+                                    <select id="program" name="program">
+                                        <option value="any">Any</option>
+                                        <option value="computer-science">Computer Science</option>
+                                        <option value="data-science">Data Science</option>
+                                        <option value="information-technology">Information Technology</option>
+                                        <option value="software-engineering">Software Engineering</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="lbl-column">
+                                    <label for="role" class="lbl-heading">Role:</label>
+                                </div>
+                                <div class="field-column">
+                                    <select id="role" name="role">
+                                        <option value="any">Any</option>
+                                        <option value="academic-advisor">Academic Program Advisor</option>
+                                        <option value="faculty-liason">Faculty Liason Officer</option>
+                                        <option value="program-convenor">Program Convenor</option>
+                                        <option value="progress-advisor">Student Progress Advisor</option>
+                                    </select>        
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="lbl-column">
+                                    <label for="campus" class="lbl-heading">Campus:</label>
+                                </div>
+                                <div class="field-column">
+                                    <select id="campus" name="campus">
+                                        <option value="any">Any</option>
+                                        <option value="callaghan">Callaghan</option>
+                                        <option value="city">Newcastle City</option>
+                                        <option value="ourimbah">Ourimbah</option>
+                                        <option value="port-mac">Port Macquarie</option>
+                                        <option value="singapore">Singapore</option>
+                                        <option value="sydney">Sydney</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-row">
+                                <div class="lbl-column"></div>
+                                <div class="field-column">
+                                    <input id="search-directory" type="submit" value="Search">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
 
                     <div class="line"></div>
 
