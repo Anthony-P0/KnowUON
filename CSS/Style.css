@@ -662,7 +662,7 @@ a.secondaryBtn:hover {
     resize: vertical;
 }
 
-#search-directory[type=submit] {
+#search-directory {
     background-color: rgb(61, 120, 172);
     padding: 12px 20px;
     border: none;
@@ -670,7 +670,7 @@ a.secondaryBtn:hover {
     width: 100%;
 }
 
-#search-directory[type=submit]:hover {
+#search-directory:hover {
     background-color: rgb(84, 164, 235);
 }
 
@@ -698,6 +698,22 @@ a.secondaryBtn:hover {
     content: "";
     display: table;
     clear: both;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+table tr, td, th {
+    border: 1px solid black;
+
+}
+
+th, td {
+    padding: 6px;
 }
 
 @media screen and (max-width: 600px) {
