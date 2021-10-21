@@ -662,18 +662,6 @@ a.secondaryBtn:hover {
     resize: vertical;
 }
 
-#search-directory {
-    background-color: rgb(61, 120, 172);
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    width: 100%;
-}
-
-#search-directory:hover {
-    background-color: rgb(84, 164, 235);
-}
-
 .form-container {
     border: 1px solid rgb(61, 120, 172);
     border-radius: 5px;
@@ -701,19 +689,39 @@ a.secondaryBtn:hover {
 }
 
 table {
-    border: 1px solid black;
     width: 100%;
-    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+tr:nth-child(odd) {
+    background-color: rgb(236, 247, 252);;
+}
 
-table tr, td, th {
-    border: 1px solid black;
-
+tr:nth-child(even) {
+    background-color: rgb(212, 236, 247);
 }
 
 th, td {
-    padding: 6px;
+    border: 1px solid black;
+    padding: 6px 10px;
+}
+
+.profile-image-header {
+    padding: 2px;
+    width: 10%;
+    border-top: none;
+    border-left: none;
+    background-color: #ebebeb;
+}
+
+.profile-image {
+    padding: 2px;
+    width: 10%;
+}
+
+.profile-image img {
+    width: 100%;
 }
 
 @media screen and (max-width: 600px) {
